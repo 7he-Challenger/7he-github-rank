@@ -16,3 +16,6 @@ Les commandes disponibles sont
 - `npm run start` : Run le project après `npm run build`
 
 ## Structure du dossier
+
+- **components** : Dossier où ce loge les composants React
+- **pages** : Dossier `route` du framework
