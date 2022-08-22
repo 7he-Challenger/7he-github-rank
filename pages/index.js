@@ -3,17 +3,21 @@
  * "pages/index.js" -> '/'
  * "pages/n_importe_quel_nom.js" -> '/n_importe_quel_nom'
  */
-
 import Head from "next/head";
+import Link from "next/link";
+import { useState } from "react";
+import ListPerson from "../components/component";
 
 function Page(){
+    const [page,setPage] = useState(1)
+
     return <>
     <Head>
-        <title>Titre du page</title> 
+        <title>7he Github Rank</title> 
     </Head>
-    <div>
-        <span>Corps du page</span>
-    </div>
+    <div className="header-main">7he Github Rank</div>
+    <ListPerson page={"1"}/>
+    <Link href={`/page/${2}`}><button>2</button></Link>
     </>
 }
 

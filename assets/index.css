@@ -1,0 +1,51 @@
+body{
+    background-color: rgb(3, 29, 32);
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.component-list {
+    height: 100px;
+    padding:10px;
+    border: solid rgb(110, 110, 110) 3px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.component-list:hover {
+    background-color: rgb(6, 56, 61);
+}
+
+.header-name {
+    margin-left: 10px;
+    display: inline-block;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.header-main {
+    text-align: center;
+    width: 100%;
+    font-size: xx-large;
+    margin-bottom: 50px;
+}
+
+.rounded {
+    border-radius: 50%;
+}
+
+.mg {
+    display: inline-block;
+}
+
+button {
+    width: 50px;
+    height: 25px;
+    font-size: large;
+    margin: 5px;
+}
+
+.nav-button {
+    text-align: center;
+    width: 100%;
+}
